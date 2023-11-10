@@ -2,6 +2,7 @@
   "name": "gitpage",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://l3x-fx.github.io/l3x-fx.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
