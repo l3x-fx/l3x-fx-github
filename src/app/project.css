@@ -1,0 +1,85 @@
+.proj {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 90vw;
+  margin: 10px 0;
+}
+.projcard {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 110px;
+  grid-template-areas:
+    "title title live"
+    "details details details"
+    "details details details";
+
+  height: 200px;
+  width: 300px;
+  padding: 0 15px;
+
+  border-radius: 3px;
+  background-color: var(--grey);
+  box-shadow: 3px 3px 10px black;
+}
+
+.projcard:hover {
+  background-color: var(--lightgrey);
+}
+
+.title {
+  grid-area: title;
+  text-align: left;
+}
+
+.cardtitle {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+}
+.cartsubtitle {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 8px 0;
+}
+
+.live {
+  grid-area: live;
+  padding-right: 5px;
+}
+ion-icon {
+  font-size: 30px;
+  padding: 10px 0 0 0;
+  color: var(--accent);
+}
+.liveon {
+  font-size: 0.7em;
+  padding: 0;
+  margin: 0;
+}
+
+.details {
+  padding-top: 5px;
+  grid-area: details;
+  text-align: left;
+  border-top: 1px solid var(--accent);
+}
+.repo {
+  margin: 0;
+  padding: 0;
+}
+.repo:hover {
+  text-decoration: underline;
+}
+.tech {
+  font-style: italic;
+  font-size: 0.85em;
+  font-weight: 200;
+  margin-top: 0;
+}
+.repo ion-icon {
+  font-size: 20px;
+}

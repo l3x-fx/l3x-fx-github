@@ -1,29 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+
 :root {
   --pale: #eeeef3;
-  --accent: #5c5ccc;
+  --accent: #595980;
   --grey: #242425;
   --darkgrey: #171718;
-  --lightgrey: #4f4f50;
+  --lightgrey: #2c2c2c;
 
   --basic-font: "Mulish", sans-serif;
 }
 .App {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
   text-align: center;
   background-color: var(--darkgrey);
   height: 100vh;
   color: var(--pale);
   font-family: var(--basic-font);
 }
+ion-icon {
+  font-size: 64px;
+}
 a {
   text-decoration: none;
   color: var(--pale);
-  padding: 0 35px;
   cursor: pointer;
 }
 
 /* NAVBAR */
 .navbar {
   width: 100vw;
-  padding: 8px 0;
+  background-color: black;
+  padding: 5px 0;
+  margin-bottom: 30px;
 }
+.nav {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--pale);
+  padding: 0 35px;
+  cursor: pointer;
+}
+.nav:hover {
+  color: var(--accent);
+}
+/* ABOUT */
+.img {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding: 0;
+}
+.ava {
+  z-index: 3;
+  height: 150px;
+  width: 150px;
+  border: 2px solid var(--accent);
+  border-radius: 100px;
+  transition: all 0.2s ease-out;
+  box-shadow: 3px 8px 10px rgba(0, 0, 0);
+}
+
+.ava:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-weight: 200;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PROJECTS */
