@@ -6,7 +6,7 @@
   justify-content: center;
   gap: 50px;
   width: 90vw;
-  margin: 10px 0;
+  margin: 40px 0;
 }
 .projcard {
   display: grid;
@@ -18,7 +18,7 @@
     "details details details";
 
   height: 200px;
-  width: 300px;
+  width: 330px;
   padding: 0 15px;
 
   border-radius: 3px;
@@ -36,7 +36,7 @@
 }
 
 .cardtitle {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 700;
   margin: 10px 0 0 0;
 }

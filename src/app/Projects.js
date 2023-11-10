@@ -10,7 +10,7 @@ export const Projects = () => {
           <div className="title">
             {/* MYSTORE */}
             <p className="cardtitle">MyStore</p>
-            <p className="cartsubtitle">Frontend Project</p>
+            <p className="cartsubtitle">Fullstack Project</p>
           </div>
           <div className="live">
             <a href="https://lively-bush-066e13b03.4.azurestaticapps.net/">
@@ -34,7 +34,7 @@ export const Projects = () => {
         <div className="projcard">
           <div className="title">
             <p className="cardtitle">Spotify Jamming</p>
-            <p className="cartsubtitle">Fullstack Project</p>
+            <p className="cartsubtitle">Frontend Project</p>
           </div>
           <div className="live">
             <a href="https://github.com/l3x-fx/SpotifyJamming">
