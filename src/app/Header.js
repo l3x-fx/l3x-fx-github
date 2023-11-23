@@ -1,6 +1,6 @@
 import React from "react"
 import "./Header.css"
-import ava from "../assets/1fin_kl.jpg"
+import ava from "../assets/3fin.jpg"
 
 export const Header = () => {
   return (
