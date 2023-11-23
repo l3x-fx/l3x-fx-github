@@ -33,7 +33,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className="descr">
-          <p>A showcase Fullstack Project with a fully functional (fake) webshop</p>
+          <p>A showcase Fullstack Project with a fully functional webshop.</p>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className="descr">
-          <p>Conntect with Spotify API to search songs and artists to create your own Jamming Playlist. </p>
+          <p>Conntect with Spotify to search songs and artists to create and save your Playlist. </p>
         </div>
       </div>
 
