@@ -3,37 +3,11 @@ import ReactDOM from "react-dom/client"
 import "./index.css"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
-import { About } from "./app/About"
-import { Projects } from "./app/Projects"
-import { CV } from "./app/CV"
-
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        index: true,
-        element: <About />,
-      },
-      {
-        path: "/projects",
-        element: <Projects />,
-      },
-      {
-        path: "/cv",
-        element: <CV />,
-      },
-    ],
-  },
-])
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 )
 
