@@ -51,7 +51,7 @@ export const Projects = () => {
             <a className="repo" href="https://github.com/l3x-fx/SpotifyJamming">
               <ion-icon name="logo-github"></ion-icon> Frontend
             </a>
-            <p className="tech">React | Redux | Javascript </p>
+            <p className="tech">React | Javascript </p>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ export const Projects = () => {
           <p className="cartsubtitle">Frontned Project</p>
         </div>
         <div className="live">
-          <a href="https://sensational-mandazi-44869f.netlify.app/login">
+          <a href="https://sensational-mandazi-44869f.netlify.app/">
             <ion-icon name="play-circle"></ion-icon>
             <p className="liveon">LIVE ON NETLIFY</p>
           </a>
@@ -83,7 +83,7 @@ export const Projects = () => {
       <div className="projcard">
         <div className="ctitle">
           <p className="cardtitle">Make It Happen</p>
-          <p className="cartsubtitle">Fullstack Project</p>
+          <p className="cartsubtitle">Mobile Project</p>
         </div>
         <div className="live">
           <a href="https://snack.expo.dev/@l3x-fx/makeithappen">

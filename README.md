@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+On this page you can find an overview of my most valued projects:
 
-## Available Scripts
+### MyStore
 
-In the project directory, you can run:
+A showcase Fullstack Project hosted on **Azure** with a fully functional (fake) webshop created on a **Node.js / Express** Backend, supported by a **PostgreSQL** database. On the front end, I utilized **TypeScript** and **Angular** to create a dynamic and responsive user interface.For state management, I employed the power of **NgRx** to ensure an efficient data flow throughout the application.
 
-### `npm start`
+Try it out [HERE](https://lively-bush-066e13b03.4.azurestaticapps.net/)!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Frontend Repo](https://github.com/l3x-fx/MyStoreApp)  
+[Backend Repo](https://github.com/l3x-fx/Storefront_Backend_Project)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Spotify Jamming
 
-### `npm test`
+Conntect with Spotify API to search songs and artists to create your own Jamming Playlist.
+Created with **Javascript** and **React**  
+Try it out [HERE](https://enchanting-narwhal-efd2fb.netlify.app/)  
+[Frontend Repo](https://github.com/l3x-fx/SpotifyJamming)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Would You Rather?
 
-### `npm run build`
+This you lets you create and vote on polls as well as analyse the engagement of the users.
+Created with **Javascript**, **React** und **Redux / RTK**  
+Try it out [HERE](https://sensational-mandazi-44869f.netlify.app/login)  
+[Frontend Repo](https://github.com/l3x-fx/SpotifyJamming)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Make It Happen
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Manage your appointments and dates on this slim, functional mobile app, created with **Javascript** **React Native** and **Redux / RTK**  
+Try it out on Expo Snack [HERE](https://snack.expo.dev/@l3x-fx/makeithappen)  
+[Frontend Repo](https://github.com/l3x-fx/MakeItHappen)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you can imagine my as part of your team, feel free and contact me on [LINKEDIN](https://www.linkedin.com/in/sabine-fleischmann/)
