@@ -31,4 +31,4 @@ Manage your appointments and dates on this slim, functional mobile app, created 
 Try it out on Expo Snack [HERE](https://snack.expo.dev/@l3x-fx/makeithappen)  
 [Frontend Repo](https://github.com/l3x-fx/MakeItHappen)
 
-If you can imagine my as part of your team, feel free and contact me on [LINKEDIN](https://www.linkedin.com/in/sabine-fleischmann/)
+If you can imagine me as part of your team, feel free and contact me on [LINKEDIN](https://www.linkedin.com/in/sabine-fleischmann/)
