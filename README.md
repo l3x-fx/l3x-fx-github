@@ -13,7 +13,7 @@ Try it out [HERE](https://lively-bush-066e13b03.4.azurestaticapps.net/)!
 
 ### Spotify Jamming
 
-Conntect with Spotify API to search songs and artists to create your own Jamming Playlist.
+Conntect with Spotify API to search through songs and artists to create your own Jamming Playlist.
 Created with **Javascript** and **React**  
 Try it out [HERE](https://enchanting-narwhal-efd2fb.netlify.app/)  
 [Frontend Repo](https://github.com/l3x-fx/SpotifyJamming)

@@ -16,6 +16,7 @@ export const Projects = () => {
             <p className="liveon">LIVE ON AZURE</p>
           </a>
         </div>
+
         <div className="details">
           <div className="det">
             <a className="repo" href="https://github.com/l3x-fx/MyStoreApp">
@@ -30,6 +31,9 @@ export const Projects = () => {
             </a>
             <p className="tech">Node.JS | Express </p>
           </div>
+        </div>
+        <div className="descr">
+          <p>A showcase Fullstack Project with a fully functional (fake) webshop</p>
         </div>
       </div>
 
@@ -54,6 +58,9 @@ export const Projects = () => {
             <p className="tech">React | Javascript </p>
           </div>
         </div>
+        <div className="descr">
+          <p>Conntect with Spotify API to search songs and artists to create your own Jamming Playlist. </p>
+        </div>
       </div>
 
       {/* WOULD YOU RATHER? */}
@@ -77,6 +84,9 @@ export const Projects = () => {
             <p className="tech">React | Redux | Javascript </p>
           </div>
         </div>
+        <div className="descr">
+          <p>This you lets you create and vote on polls as well as analyse the user engagement. </p>
+        </div>
       </div>
 
       {/* MAKE IT HAPPEN */}
@@ -99,6 +109,9 @@ export const Projects = () => {
             </a>
             <p className="tech">React Native | Redux | Javascript</p>
           </div>
+        </div>
+        <div className="descr">
+          <p>Manage your appointments and dates on this slim, functional mobile app. </p>
         </div>
       </div>
     </div>
