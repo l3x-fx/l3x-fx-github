@@ -111,7 +111,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className="descr">
-          <p>Manage your appointments and dates on this slim, functional mobile app. </p>
+          <p>A simple, calendar-based ToDo management app.</p>
         </div>
       </div>
     </div>

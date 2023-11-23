@@ -27,7 +27,7 @@ Try it out [HERE](https://sensational-mandazi-44869f.netlify.app/login)
 
 ### Make It Happen
 
-Manage your appointments and dates on this slim, functional mobile app, created with **Javascript** **React Native** and **Redux / RTK**  
+A simple, calendar-based ToDo management app. **Javascript** **React Native** and **Redux / RTK**  
 Try it out on Expo Snack [HERE](https://snack.expo.dev/@l3x-fx/makeithappen)  
 [Frontend Repo](https://github.com/l3x-fx/MakeItHappen)
 
