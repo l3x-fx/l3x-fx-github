@@ -7,7 +7,9 @@ export const Projects = () => {
       <div className="projcard">
         <div className="ctitle">
           {/* MYSTORE */}
-          <p className="cardtitle">MyStore</p>
+          <a href="https://lively-bush-066e13b03.4.azurestaticapps.net/">
+            <p className="cardtitle">MyStore</p>
+          </a>
           <p className="cartsubtitle">Fullstack Project</p>
         </div>
         <div className="live">
@@ -40,7 +42,9 @@ export const Projects = () => {
       {/* SPOTIFY */}
       <div className="projcard">
         <div className="ctitle">
-          <p className="cardtitle">Spotify Jamming</p>
+          <a href="https://enchanting-narwhal-efd2fb.netlify.app/">
+            <p className="cardtitle">Spotify Jamming</p>
+          </a>
           <p className="cartsubtitle">Frontend Project</p>
         </div>
         <div className="live">
@@ -66,7 +70,9 @@ export const Projects = () => {
       {/* WOULD YOU RATHER? */}
       <div className="projcard">
         <div className="ctitle">
-          <p className="cardtitle">Would You Rather?</p>
+          <a href="https://sensational-mandazi-44869f.netlify.app/">
+            <p className="cardtitle">Would You Rather?</p>
+          </a>
           <p className="cartsubtitle">Frontned Project</p>
         </div>
         <div className="live">
@@ -92,7 +98,9 @@ export const Projects = () => {
       {/* MAKE IT HAPPEN */}
       <div className="projcard">
         <div className="ctitle">
-          <p className="cardtitle">Make It Happen</p>
+          <a href="https://snack.expo.dev/@l3x-fx/makeithappen">
+            <p className="cardtitle">Make It Happen</p>
+          </a>
           <p className="cartsubtitle">Mobile Project</p>
         </div>
         <div className="live">
