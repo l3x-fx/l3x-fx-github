@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  margin-top: 80vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (min-width: 1500px) {
+  .projects {
+    width: 100vw;
+    gap: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .projects {
+    width: 100%;
+  }
+}

@@ -1,0 +1,176 @@
+.projcard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: var(--darkgrey-60);
+  box-shadow: 8px 8px 15px black;
+  transition: opacity 0.8s ease-in-out;
+}
+.projcard:hover {
+  background-color: var(--grey-60);
+}
+.screenshot {
+  display: block;
+  width: 50vw;
+  position: relative;
+}
+.screenshot {
+  display: block;
+  width: 50vw;
+  position: relative;
+}
+
+.screenshot img {
+  display: block;
+  width: 100%;
+}
+
+.screenshot a {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0px 40px;
+  width: 50%;
+}
+
+.cardtitle {
+  font-size: 3.5em;
+  font-weight: 400;
+  color: var(--gold);
+  font-family: var(--accent-font);
+  margin: 0;
+}
+.cartsubtitle {
+  font-style: bold;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0;
+  font-family: var(--basic-font);
+}
+
+.descr {
+  width: 100%;
+  font-weight: 300;
+  font-size: 1em;
+  margin: 0;
+  font-family: var(--basic-font);
+  border-top: 1px solid var(--accent);
+  padding: 5px 0;
+}
+.descr p {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.8em;
+}
+
+.links a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links p {
+  padding: 10px 15px;
+}
+ion-icon {
+  font-size: 30px;
+  color: var(--gold);
+}
+
+.techs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tech {
+  display: block;
+  background-color: var(--gold);
+  color: var(--darkgrey);
+  padding: 5px 10px;
+  border-radius: 27px;
+  font-weight: 800;
+  font-size: 0.7em;
+  margin: 5px;
+}
+@media screen and (max-width: 1160px) {
+  .projcard {
+    flex-direction: column;
+    align-items: center;
+  }
+  .screenshot {
+    width: 80vw;
+  }
+  .card {
+    width: 80%;
+    padding: 10px 40px;
+    align-items: center;
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descr {
+    padding: 20px;
+    text-align: center;
+  }
+  .techs {
+    width: 80%;
+    justify-content: center;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .screenshot {
+    width: 100vw;
+  }
+  .card {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardtitle {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .cartsubtitle {
+    font-size: 1.25em;
+    font-weight: 200;
+  }
+  .descr {
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .links p {
+    font-size: 0.9em;
+  }
+  .techs {
+    justify-content: center;
+    padding: 10px 0;
+  }
+}

@@ -1,109 +1,112 @@
-.headerWrap {
-  height: 85px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.name {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  top: 55px;
-  left: 00px;
-  z-index: 2;
-  background: linear-gradient(90deg, var(--accent) 0%, black 100%);
-  height: 40px;
-  width: 100%;
-  font-family: var(--basic-font);
-  padding-left: 180px;
-  font-size: 1.4em;
-  text-shadow: 2px 2px 2px black;
-}
-
-.img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 180px;
-  width: 180px;
-  margin-top: 15px;
-  left: 0;
-  z-index: 5;
-}
-
-.ava {
-  z-index: 3;
-  height: 120px;
-  width: 120px;
-  border: 2px solid var(--accent);
-  border-radius: 100px;
-  transition: all 0.2s ease-out;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0);
-}
-.ava:hover {
-  transform: scale(1.2);
-}
-.black {
-  position: absolute;
-  background-color: black;
+.header {
   top: 0;
-  left: 0;
-  height: 150px;
   width: 100%;
-  padding: 0 0 5px 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: flex-end;
-  color: var(--basic-font);
-  padding-left: 180px;
-  padding-bottom: 15px;
-  background-image: url("../assets/banner.jpg");
-  background-position: right;
-  background-size: auto 180px;
-  background-repeat: no-repeat;
 }
 
+.name {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 12rem;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  z-index: 3;
+  font-family: var(--basic-font);
+  transition: all 0.5s ease-in-out;
+}
+
+.stickyname {
+  background-color: black;
+  border-bottom: 2px solid var(--gold);
+  height: 6em;
+  padding-top: 8px;
+  top: 0px;
+  padding-left: 10px;
+  transition: all 0.5s ease-in-out, background 0.5 ease-in 0.5, border-bottom 0.5 ease-in 0.5;
+}
 .title {
-  font-size: 1.2em;
-  font-style: italic;
+  width: 100%;
+  position: fixed;
+  font-weight: 350;
+  z-index: 6;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 10px;
   font-family: var(--accent-font);
-  margin: 10px 0;
-  padding: 0 auto 0 15px;
+  color: var(--gold);
+  bottom: 6vh;
+  transition: all 0.5s ease-in-out;
+}
+
+.stickytitle {
+  translate: 100vw 0px;
+  opacity: 0%;
 }
 
 .contacts {
+  position: fixed;
+  top: 1.5em;
+  right: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 0 15px 0 auto;
+  justify-content: flex-end;
+  padding: 8px 0 0 0;
+  z-index: 6;
+  transition: all 0.5s ease-in-out;
 }
+
+#firstname {
+  text-align: left;
+  font-size: 7em;
+  letter-spacing: 10px;
+  transition: all 0.5s ease-in-out;
+  font-weight: 200;
+}
+.surname {
+  text-align: left;
+  padding-left: 5px;
+  font-size: 2em;
+  letter-spacing: 50px;
+  transition: all 0.5s ease-in-out;
+}
+.stickysurname {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  padding-left: 0px;
+}
+
 .contacts ion-icon {
   font-size: 30px;
   padding: 0 8px;
   color: #eeeef3d8;
 }
-
-@media (max-width: 600px) {
-  .name {
-    padding-left: 160px;
+@media screen and (max-width: 450px) {
+  #firstname {
+    font-size: 2.8em;
+    font-weight: 200;
   }
-  .name h2 {
-    font-size: 1em;
-  }
-  .black {
-    padding-left: 160px;
+  .surname {
+    font-size: 1.1em;
+    letter-spacing: 13px;
   }
   .title {
     font-size: 1em;
+    font-weight: 600;
+  }
+  .stickyname {
+    padding-top: 14px;
+    top: 0px;
+    padding-left: 20px;
+    transition: all 0.5s ease-in-out, background 0.5 ease-in 0.5, border-bottom 0.5 ease-in 0.5;
+    height: 5em;
+  }
+  .stickysurname {
+    letter-spacing: 1px;
   }
   .contacts ion-icon {
     font-size: 20px;
+    padding: 0 13px;
+    color: #eeeef3d8;
   }
 }

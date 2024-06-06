@@ -1,14 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
 :root {
   --pale: #eeeef3;
-  --accent: #59597a;
+  --gold: #9e7d41;
+  --accent: #191627;
   --grey: #242425;
+  --grey-60: rgba(36, 36, 37, 0.6);
   --darkgrey: #171718;
+  --darkgrey-60: rgba(23, 23, 24, 0.6);
   --lightgrey: #2c2c2c;
+  --lightgrey-60: rgb(44, 44, 44, 0.6);
 
   --basic-font: "Mulish", sans-serif;
-  --accent-font: "Gruppo", sans-serif;
+  --accent-font: "Genos", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -18,18 +22,15 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-  background-color: var(--darkgrey);
+  justify-content: center;
 
-  height: 100vh;
+  background: black url("./assets/bg2.jpg") no-repeat top / 100vw;
   width: 100%;
   color: var(--pale);
   font-family: var(--basic-font);
+  border: 1px solid black;
 }
-ion-icon {
-  font-size: 64px;
-}
+
 a {
   text-decoration: none;
   color: var(--pale);
@@ -39,10 +40,38 @@ a {
 
 h1 {
   margin: 0;
+  padding: 0;
   text-align: center;
   font-family: var(--accent-font);
+  font-weight: 200;
 }
 h2 {
   margin: 0;
   font-family: var(--accent-font);
+  font-weight: 200;
+}
+h3 {
+  margin: 0;
+  font-family: var(--accent-font);
+  font-weight: 200;
+}
+p {
+  margin: 0;
+}
+.about {
+  font-size: 0.8em;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 10px;
+  bottom: 0px;
+  z-index: 11;
+  text-align: center;
+  border-top: 2px solid var(--gold);
+  letter-spacing: 6px;
+  font-weight: 200;
+  font-family: var(--accent-font);
+}
+.footer-contacts ion-icon {
+  font-size: 20px;
+  padding: 10px 25px;
 }
