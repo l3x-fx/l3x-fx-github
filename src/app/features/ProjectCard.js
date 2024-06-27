@@ -70,7 +70,7 @@ export const ProjectCard = ({ project }) => {
             <p>FRONTEND Code</p>
           </a>
 
-          <a href={project.BERepoLink}>
+          <a href={project.BERepoLink} style={{ display: project.BERepoLink === "" && "none" }}>
             <ion-icon name="logo-github"></ion-icon>
             <p>BACKEND Code</p>
           </a>

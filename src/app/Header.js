@@ -2,23 +2,37 @@ import React from "react"
 import "./Header.css"
 import { useEffect } from "react"
 
-import ava from "../assets/1fin_kl.jpg"
-
 export const Header = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      const nameEl = document.getElementById("name")
-      const h3El = document.getElementById("surname")
-      const titleEl = document.getElementById("title")
+  const setInitState = () => {
+    document.getElementById("firstname").style.fontSize = document.body.clientWidth > 450 ? "7em" : "2.8em"
+    document.getElementById("firstname").style.fontWeight = document.body.clientWidth < 450 && "200"
+    document.getElementById("firstname").style.letterSpacing = document.body.clientWidth < 450 && "10px"
+  }
 
+  const setScrollState = () => {
+    document.getElementById("firstname").style.fontSize = "1.5em"
+    document.getElementById("firstname").style.fontWeight = document.body.clientWidth < 450 && "500"
+    document.getElementById("firstname").style.letterSpacing = document.body.clientWidth < 450 && "5px"
+  }
+
+  useEffect(() => {
+    const nameEl = document.getElementById("name")
+    const h3El = document.getElementById("surname")
+    const titleEl = document.getElementById("title")
+
+    if (window.scrollY != 0) {
+      nameEl.classList.add("stickyname")
+      h3El.classList.add("stickysurname")
+      titleEl.classList.add("stickytitle")
+      setScrollState()
+    }
+
+    const handleScroll = () => {
       if (window.scrollY !== 0) {
         nameEl.classList.add("stickyname")
         h3El.classList.add("stickysurname")
         titleEl.classList.add("stickytitle")
-
-        document.getElementById("firstname").style.fontSize = "1.5em"
-        document.getElementById("firstname").style.fontWeight = document.body.clientWidth < 450 && "500"
-        document.getElementById("firstname").style.letterSpacing = document.body.clientWidth < 450 && "5px"
+        setScrollState()
       }
 
       if (window.scrollY === 0) {
@@ -26,9 +40,7 @@ export const Header = () => {
         h3El.classList.remove("stickysurname")
         titleEl.classList.remove("stickytitle")
 
-        document.getElementById("firstname").style.fontSize = document.body.clientWidth > 450 ? "7em" : "2.8em"
-        document.getElementById("firstname").style.fontWeight = document.body.clientWidth < 450 && "200"
-        document.getElementById("firstname").style.letterSpacing = document.body.clientWidth < 450 && "10px"
+        setInitState()
       }
     }
 
