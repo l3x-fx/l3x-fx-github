@@ -52,7 +52,7 @@ const initialState = {
       FERepoLink: "https://github.com/l3x-fx/WouldYouRather",
       BERepoLink: "",
       screenshot: "https://i.imgur.com/QXMk25R.jpgO",
-      techStack: ["Reacht", "Redux", "ReduxToolkit", "Javascript", "CSS", "HTML"],
+      techStack: ["React", "Redux", "ReduxToolkit", "Javascript", "CSS", "HTML"],
       mobile: false,
     },
     {
