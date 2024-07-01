@@ -47,7 +47,7 @@ const initialState = {
       title: "Would You Rather?",
       type: "Frontend Project",
       description:
-        "This platform allows you to create engaging polls on a variety of topics, invite participants to vote, and analyze user engagement through detailed analytics. Gain insights into user preferences and trends, making it a powerful tool for gathering opinions and making informed decisions.",
+        "This platform allows you to create engaging polls on a variety of topics, invite participants to vote, and analyze user engagement . Gain insights into user preferences and trends, making it a powerful tool for gathering opinions and making informed decisions.",
       liveLink: "https://sensational-mandazi-44869f.netlify.app/",
       FERepoLink: "https://github.com/l3x-fx/WouldYouRather",
       BERepoLink: "",
@@ -60,7 +60,7 @@ const initialState = {
       title: "Make It Happen",
       type: "Frontend Mobile Project",
       description:
-        "This intuitive app allows you to manage your tasks effortlessly with a calendar-based interface. Organize your ToDos by date, set reminders, and track your progress. Designed for simplicity and efficiency, it helps you stay on top of your schedule and boosts your productivity.",
+        "This intuitive app allows you to manage your tasks effortlessly with a calendar-based interface. Designed for simplicity and efficiency, it helps you stay on top of your schedule and boosts your productivity.",
       liveLink: "https://snack.expo.dev/@l3x-fx/makeithappen",
       FERepoLink: "https://github.com/l3x-fx/MakeItHappen",
       BERepoLink: "",
